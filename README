@@ -1,15 +1,14 @@
-
 # CS325_project3
 
-# CS325_project3 is a project consisting of modules for downloading web content, writing to files, and extracting comments from HTML files. It includes several Python scripts organized into modules to facilitate these tasks.
+CS325_p3 is a project consisting of modules for downloading web content, writing to files, and extracting comments from HTML files. It includes several Python scripts organized into modules to facilitate these tasks.
 
 ## Prerequisites
-Before you can run the Web Downloader and Comments Extractor program, you need to ensure you have the following prerequisites installed on your system:
+Before you can run the program, you need to ensure you have the following prerequisites installed on your system:
 
 - Python 3
 - Git (optional, but useful for cloning the repository)
 
-## Getting Started
+# Getting Started
 
 1. **Clone the repository.**
 
@@ -20,13 +19,18 @@ Before you can run the Web Downloader and Comments Extractor program, you need t
 
 2. **Navigate to the Project Directory**
 
-3. **Create a Virtual Environment**
+3. **Create a Virtual Environment (Optional but Recommended)**
+## Using Conda
+  conda create --name project3_env python=3.8
+  conda activate project3_env
 
-4. **Using Conda**
+##  Using Python venv
+  python -m venv project3_env
+  source project3_env/bin/activate  # On Windows, use `project3_env\Scripts\activate`
+
+4. **Install Dependencie**
+   pip install -r requirements.txt
    
-## Running the Program 
-1. Step 1: Use the command line: py run.py (url)
-then outputs in Data directory
-
-
+# Running the Program
+   python run.py URL
 
