@@ -6,33 +6,929 @@ see the search faq for details.
 
 advanced search: by author, subreddit...
 
-for the love of god i am on my knees begging screaming crying throwing up somebody please tell me what ayo’s skincare routine is
+/r/redditsecurity is a running log of actions taken to ensure the safety and security of reddit.com
 
-It has something to do with Zenni glasses
+See /r/reddit and /r/modnews for other important news about the site
 
-step one: be 23 years old
+To report content policy violations to the admins, please use this form
 
-If Billy rests starters, looking forward to Caruso,Carter, and Craig swarming Jokic. RIP Jokic.
+If you think you've located a significant security concern, send it to whitehats@reddit.com
 
-Would love to see more of Bitim and Sanogo tonight. Craig and Carter are for sure great additions, but I think those two have a lot of potential in this roster and I'm interested to see more.
+Check out /r/ModSupport for information related to subreddit moderation
 
-Windy City Bulls vs Grand Rapids Gold!
+This is an admin-sponsored subreddit.
 
-How is it fair that we have to play Denver multiple times in the preseason? If we don’t make the preseason playoffs it’s going to be because the schedule makers fuked us.
+TL;DR: Bad actors never sleep, and we are always evolving how we identify and mitigate them. But with the upcoming election, we know you want to see more. So we're committing to a quarterly report on content manipulation and account security, with the first to be shared in October. But first, we want to share context today on the history of content manipulation efforts and how we've evolved over the years to keep the site authentic.
 
-It’s good because that means we’ll have more film for when we play them in the finals.
+A brief history
 
-https://twitter.com/KCJHoop/status/1713254550734352827?t=CnwGd52fwinaTwtOTewSHw&s=19
+The concern of content manipulation on Reddit is as old as Reddit itself. Before there were subreddits (circa 2005), everyone saw the same content and we were primarily concerned with spam and vote manipulation. As we grew in scale and introduced subreddits, we had to become more sophisticated in our detection and mitigation of these issues. The creation of subreddits also created new threats, with “brigading” becoming a more common occurrence (even if rarely defined). Today, we are not only dealing with growth hackers, bots, and your typical shitheadery, but we have to worry about more advanced threats, such as state actors interested in interfering with elections and inflaming social divisions. This represents an evolution in content manipulation, not only on Reddit, but across the internet. These advanced adversaries have resources far larger than a typical spammer. However, as with early days at Reddit, we are committed to combating this threat, while better empowering users and moderators to minimize exposure to inauthentic or manipulated content.
 
-KC saying Billy might sit most of the regular players for this one
+What we’ve done
 
-Czar Baldy Bald Commissioner Silver is gonna rip another second rounder off us for this one!
+Our strategy has been to focus on fundamentals and double down on things that have protected our platform in the past (including the 2016 election). Influence campaigns represent an evolution in content manipulation, not something fundamentally new. This means that these campaigns are built on top of some of the same tactics as historical manipulators (certainly with their own flavor). Namely, compromised accounts, vote manipulation, and inauthentic community engagement. This is why we have hardened our protections against these types of issues on the site.
 
-Rest the best and dress the rest
+Compromised accounts
 
-wait, why are we only playing Denver? Does the league know we’re making the finals?
+This year alone, we have taken preventative actions on over 10.6M accounts with compromised login credentials (check yo’ self), or accounts that have been hit by bots attempting to breach them. This is important because compromised accounts can be used to gain immediate credibility on the site, and to quickly scale up a content attack on the site (yes, even that throwaway account with password = Password! is a potential threat!).
 
-Exciting preseason!
+Vote Manipulation
 
-Denver has no answer for us. They can bully the rest of the league, but they’re still our bitches. Bulls in four. See Red.
+The purpose of our anti-cheating rules is to make it difficult for a person to unduly impact the votes on a particular piece of content. These rules, along with user downvotes (because you know bad content when you see it), are some of the most powerful protections we have to ensure that misinformation and low quality content doesn’t get much traction on Reddit. We have strengthened these protections (in ways we can’t fully share without giving away the secret sauce). As a result, we have reduced the visibility of vote manipulated content by 20% over the last 12 months.
+
+Content Manipulation
+
+Content manipulation is a term we use to combine things like spam, community interference, etc. We have completely overhauled how we handle these issues, including a stronger focus on proactive detection, and machine learning to help surface clusters of bad accounts. With our newer methods, we can make improvements in detection more quickly and ensure that we are more complete in taking down all accounts that are connected to any attempt. We removed over 900% more policy violating content in the first half of 2019 than the same period in 2018, and 99% of that was before it was reported by users.
+
+User Empowerment
+
+Outside of admin-level detection and mitigation, we recognize that a large part of what has kept the content on Reddit authentic is the users and moderators. In our 2017 transparency report we highlighted the relatively small impact that Russian trolls had on the site. 71% of the trolls had 0 karma or less! This is a direct consequence of you all, and we want to continue to empower you to play a strong role in the Reddit ecosystem. We are investing in a safety product team that will build improved safety (user and content) features on the site. We are still staffing this up, but we hope to deliver new features soon (including Crowd Control, which we are in the process of refining thanks to the good feedback from our alpha testers). These features will start to provide users and moderators better information and control over the type of content that is seen.
+
+What’s next
+
+The next component of this battle is the collaborative aspect. As a consequence of the large resources available to state-backed adversaries and their nefarious goals, it is important to recognize that this fight is not one that Reddit faces alone. In combating these advanced adversaries, we will collaborate with other players in this space, including law enforcement, and other platforms. By working with these groups, we can better investigate threats as they occur  on Reddit.
+
+Our commitment
+
+These adversaries are more advanced than previous ones, but we are committed to ensuring that Reddit content is free from manipulation. At times, some of our efforts may seem heavy handed (forcing password resets), and other times they may be more opaque, but know that behind the scenes we are working hard on these problems. In order to provide additional transparency around our actions, we will publish a narrow scope security-report each quarter. This will focus on actions surrounding content manipulation and account security (note, it will not include any of the information on legal requests and day-to-day content policy removals, as these will continue to be released annually in our Transparency Report). We will get our first one out in October. If there is specific information you’d like or questions you have, let us know in the comments below.
+
+[EDIT: Im signing off, thank you all for the great questions and feedback. I'll check back in on this occasionally and try to reply as much as feasible.]
+
+[deleted]
+
+It depends on the kind of action we take against the account. Some of our tools will close the account and put a notice on their profile page indicating the permanent suspension, others will also remove some or all of the content the account posted. One of the things we are working on is improving the transparency of those states so that it is clearer when and why we have taken action. It's been something we have discussed for a while and want to move forward in a thoughtful way that is both educational and respectful to our users.
+
+Would reddit be opposed to releasing a figure of what % of accounts fall into ‘bot accounts’? As in they only regurgitate previously posted comments and information?
+
+I find it hard to believe you guys are doing all you can, and it’d be pretty easy from algorithm standpoint to build a filter that seperates bot accounts from legitimate users.
+
+I posted a comment speculating that this was because if you banned some bot accounts inevitably you’d be forced to ban all; which would compromise just how much of reddit’s userbase are actual accounts vs illegitimate accounts. My comment was the top comment on the post and was seemingly vanished into thin air without a single word from the mods.
+
+An audit of all accounts would solve bots and shills, but would drive your ad revenue down because no one wants to pay for ads that are going to a majority of bots.
+
+My main question is, why hasn’t reddit ever done a conclusive study on how much of its userbase are illigitimate accounts?
+
+Some speculate that the percent of accounts that aren’t legitimate users falls into the ~30% area..
+
+If reddit wouldn’t want to do their own analysis would you be opposed to a user orchestrated audit? Using moderator cooperation of the most popular subs to do a small concensus?
+
+Say take the population of the top 10 most active subreddits, then see what % of users are legitimate people vs spam accounts or the ilk?
+
+I’ve had tons of conversations with friends in fields like compu sci and IT and they all seem to agree a company like reddit definitely has the resources at its disposal to get rid of bot accounts altogether; however you don’t?
+
+Is there a reason for ignoring this problem as a whole instead of tackling small sub groups of illegitimate accounts?
+
+That's actually something we do talk about quite often internally. I don't think we want to simply ban all "bots." It gets complicated because simply being a bot that automatically posts content is allowed and is useful in some subreddits, so we also have to identify "good" and "bad" bots. We leave a lot of room for experimentation and creativity, resulting in things like /r/SubredditSimulator. We want to keep those things while making it clearer who is operating a bot and its intended purpose, but shutting down those that are created and used for malicious actions.
+
+How about a bot whitelist? Someone at reddit needs to OK any bot that operates on the site.
+
+Based on absolutely nothing I’d be willing to bet the number of malicious bots outnumbers the useful ones by 10 to 1.
+
+This is a good idea. Like there is a bot in a snake page I follow. Name the species and it automatically gives a little synopsis. Totally ok.
+
+If you had to submit a request for a bot to be used you would add it to a list of acceptable bots.
+
+One issue with this is someone would adapt. A seemingly ok bot suddenly shifts direction. However this would still significantly reduce the number of bots with bad intent
+
+I think we'll find that there are too many bots for Reddit to manually approve. Keep in mind, Reddit still hasn't worked out a good way to monetize their platform. They're already bleeding money every month just operating as they do now.
+
+What was up with the blatant bot activity in r/politics during the last debate. There were hundreds of bots commenting on the wrong sticky. It was painfully obvious when sorting by new in the sticky above the debate sticky. It was pretty hilarious how bad it was. I don't believe one user had hundreds of accounts posting in the wrong thread during the last debate. If it was one person how would you even combat that?
+
+The_Donald is quarantined for minor infractions that on the face of it, would have to be an acceptable margin of error. r/politics is by far, a much greater offender that seems to have been given free reign by Reddit to allow an anything goes policy.
+
+The way i see it, the biggest offender of content manipulation is Reddit itself.
+
+What was up with the blatant bot activity in r/politics during the last debate. There were hundreds of bots commenting on the wrong sticky. It was painfully obvious when sorting by new in the sticky above the debate sticky. It was pretty hilarious how bad it was.
+
+And suddenly, there were more admin responses to that thread...
+
+[deleted]
+
+Me: YES
+
+/r/botsrights: ಠ_ಠ
+
+By registering bots you also give yourselves the ability to see other bots created to fight bots ( could have a categorising system when registering the bot ). This also can be connected to not just you guys fighting bots but connecting subreddit moderators to more tools to enhance there ability bro detect manipulation and bots.
+
+An admin using old Reddit!
+
+Its treason but I respect it
+
+I automatically assume you’re weird if you’re not on old reddit. New reddit is just so unusable if you’re managing multiple subreddit subs and really flying around the site. Not to mention being 100% unusable with mobile (and screw apps, phones are big enough today to use with any desktop version of a website).
+
+The Reddit app is usable enough and far better than using Reddit on browser (I don't have a tablet sized phone, because I want to be able to handle my phone with just one hand)
+
+Still though, would it be too much to ask for an audit that delves into and reveals how much of reddits userbase compromise what could be considered a ‘bot’ account?
+
+Seems like a trivial task, and forgive me if I’m mistaken, why hasn’t reddit done one?
+
+Seeing all the news about manipulation and misinformation on this site, seems an audit of what accounts do or do not meet the standards to be considered a ‘bot’ would be quite usefull.
+
+That and seeing how many of said ‘bot’ accounts make up a majority of a subs userbase. I know there are more than a few, shall we say, daring subreddits that many would love to see broken down into legitimate users vs illegitimate accounts..
+
+Say a subreddit has a bot population of more than half of their total userbase, would this not be enough to warn the mod team of said sub and then give them a ‘probation period’ to control the misinformation spreading?
+
+This website is ripe for misinformation, and honestly it seems as if reddits admin team aren’t using half the tools at their disposal, or don’t want to rather.
+
+That's actually something we do talk about quite often internally. I don't think we want to simply ban all "bots." It gets complicated because simply being a bot that automatically posts content is allowed and is useful in some subreddits
+
+But some subreddits don't want any bot. I am a mod of a sub with a strict "no bots" policy (we hate them all) and yet it seems every month there's a new one...
+
+It would be nice if subs could be configured so all bots can be forbidden.
+
+Honestly, I know it sounds lazy, but if a bad actors account is deleted or banned I still read the comment and don't check their profile, but I'm unsure of the context. Having a disclaimer would be nice cause it'll help me frame how I ingest the information in the comment. Just reading the comment affects my opinion and context on the following comments.
+
+Adding in the context of the ban or deletion as a disclaimer would certainly help me ingest the comment and those below it. Framing a conversation and providing context to how I should view what someone is saying is super important.
+
+Also thanks for working super hard at trying to make reddit better! I appreciate it.
+
+One of the things we are working on is improving the transparency of those states so that it is clearer when and why we have taken action.
+
+Can you elaborate on this?  I'm not aware of any evidence that reddit has released any information on content manipulation or covert propaganda since the 2017 transparency report.
+
+Dang, that's a great idea.
+
+There's a downside to this, doing this would educate the manipulators as well, helping them to improve their own measures to avoid being detected.
+
+I worry about giving any valuable info like this to Russian fake news farms, for example.
+
+We are investing in a safety product team that will build improved safety (user and content) features on the site. We are still staffing this up, but we hope to deliver new features soon (including Crowd Control, which we are in the process of refining thanks to the good feedback from our alpha testers).
+
+Does this mean that y'all are hiring new people for this team, or are these employees reallocated / additionally tasked that y'all already have on board?
+
+We are doing both. We have pulled in some of our most senior members from across the company to work on these problems, but we are also bringing in new Snoos to help. Psst...We're hiring
+
+Psst...We're hiring
+
+Do you guys have internship positions?
+
+Don’t think I’m ready to enter the workforce in any extent, not even quite done w/ my 2 year
+
+We have an annual paid summer internship for college students. I don't have any of the details on this yet (this summer's program just ended), but watch the career page for opportunities next summer! We have had some cool projects come out of it, so please apply!
+
+I was going to make a joke about any finance bro positions open for people not willing to leave Manhattan or go above 110th street, but it looks like that is actually a position you have open.
+
+Tell you what. For $1/yr plus, the ability to make my name admin red, and ban Masterlawlz will give you last years forecasts about tech stocks. Other than them being a year old they are the same advice my current employer charges out the ass for. Everything other than banning Masterlawlz is negotiable.
+
+I have an MS in Financial economics from Columbia. Probably at least 3% better than random guessing when it comes to stocks.
+
+Will you guys try and keep it neutral? Or can we expect the hired hands to all be about of the same opinions and cliques, ready to push their opinions and biases without any attempt at neutrality?
+
+I am just saying, this sounds super vulnerable to manipulation by internet busybodies.
+
+Every weapon Reddit makes is used on "political enemies" within the year...and done so under the veil of "helping".
+
+Just like other social media companies, Reddit has already purged "one side" of the political aisle and left the other to thrive.
+
+The thing about the Russian Bot theory from last election....when Russian Bots took over right wing entities they said that they were working WITH the right wing.  When Russian Bots took over left wing entities they said they were hacked.
+
+There were every bit as many "Black Lives Matter" Russian Bots as "Vote For Trump" Russian Bots....but somehow the Bot problem was blamed on the right wing.
+
+Does anybody really think this NEW AND IMPROVED Reddit model is going to do better or act in good faith?  When has it EVER?
+
+This is where private companies influence a countries elections behind the scenes and call it "helping the community".  Reddit wont be the only ones cracking down on these right wing Russian Bots....Twitter, Youtube, Facebook and the rest will also be looking for right wing content that goes against their policies and that they think may influence the election.
+
+I, for one, welcome our unaccountable overly-liberal non-transparent overlords!  Kamala Harris is beautiful and brave...please dont put me in the gulag for wrong-think, comrades!
+
+Vote Manipulation
+
+Alright, so, you say you've "reduced the visibility" of vote manipulated content by 20% - But the amount of replies I've received from www.reddit.com/report has gone down by 90%+.
+
+I used to write up very detailed tickets - Some I detailed extensively, like in this post because there is a TON of astroturfing and multiple account/vote manipulation stuff on the site. I wrote up a dozen pages of information.
+
+This was very commonly done because once, admins actioned these kinds of things - Has there been some sort of change in policy where nothing is done with the accounts once sent in, and there is no longer a reason to respond to any of the tickets?
+
+I've wrote up hundreds of bought and purchased accounts into complex tickets - Never received any actual responses.
+
+I understand Vote Manipulation is a tricky subject. I understand it takes time. I just wish the time spent on the moderator end of things was acknowledged by, at the very least, a reply, saying "Yes", or "No".
+
+It's very disheartening seeing problematic behaviour continue, day after day, and know that it doesn't matter how much effort is put into documenting it, that nothing will be done.
+
+This isn't to put the admins on blast, but I do remember days where I would send in Vote Manipulation tickets, and it might take a couple days for a response, but I'd get a "yes", or a "no" answer, and could log it properly. Nowadays, I just send in a ticket with minimal information, knowing it won't get actioned anyways, just as sort of a placebo, because I know the manipulation is happening, just it seems admins don't care about it.
+
+We've done a lot in the last few years to update our vote manipulation detection systems and automate some of the processes around them. Unfortunately that does mean fewer personalized responses. Reviewing some of your recent reports, it sounds like what you are observing would fall more into content manipulation and might be better served by sending those detailed write-ups here or use investigations@reddit.zendesk.com.
+
+I've used  investigations@reddit.zendesk.com and have received responses that give no information, so I gave up on that method.
+
+I understand that admins are busy and requests are many, but it takes extensive amounts of time to compile lists of hundreds of malicious Reddit users, crossreference them to ensure that they are indeed malicious (in order to not feed admins inaccurate information) and then type up pages of identifying information only to receive:
+
+Thanks for the report and we’re sorry to hear of this situation. We'll investigate your report and take action as necessary.
+
+Even that is somewhat of a response, but even that is better than the radio silence. It doesn't tell me anything useful (I still don't know whether that's a yes or a no) but at least it's confirmation that in theory, someone looked at it enough to press a button, even if it is an automated macro.
+
+Right now it is simply not worth the time spent in doing it - I have an intensive job that requires a lot of brainpower and Reddit is a hobby - I'm happy to help with things that admins say are important to them, but not if there's no response and the time spent is wasted.
+
+I don't mind non-personalized responses - But I do wish that for each request sent in, there is a "yes" or a "no" answer, even if its a macro. Moderators take time out of their day to identify  bad actors for you that are breaking Reddit Rules, a little time in return to confirm or deny their request shouldn't be out of the question.
+
+Heck, it can take weeks if you guys are swamped - As long as I'm not sending data into a void.
+
+That is strange, you definitely should have been getting replies from that channel and I'm not locating anything recent from you. Can you submit a new email ticket there now so we can make sure a wire isn't crossed somewhere?
+
+Are you kidding?  This isn't strange at all.  It's par for the course.
+
+r/Libertarian was seized last winter by neofascist propagandists (who appeared to be collaborating with Russian spammers).  It sounds crazy, yet it happened.  Mother Jones published an article about it.  r/technology, r/news, r/subredditdrama, r/politics, and r/ideasfortheadmins all banned the MJ article, all for incredibly specious reasons.
+
+I was one of many voices who complained loudly.  We were fucking ignored.  Reddit did nothing about it.  Not even a "we're looking into it".  These complaint mechanisms are all useless, and you're full of shit to imply that there's a wire crossed.  Ignoring user complaints and then celebrating reddit's inaction and appalling transparency is the norm right now.
+
+Well aside. Reddit is just doing PR theater, just like the TSA and their shitty security theater. I don't think they really care about the issue.
+
+Reddit’s long time strategy has been to blame users while simultaneously doing nothing of substance.  Exactly what they’ve done here.
+
+Security Theater indeed.  It would be like TSA if, while sending you though the body scanner, they opened an express security bypass lane for ISIS and other terrorist groups, and then profited from planes exploding.
+
+It's ultimately a numbers game man, numbers of people and dollars. Both have gotten astronomically huge but at the end of the day it's all gotta work somehow. It literally, as in not figuratively, has to work somehow.
+
+Grab onto your butts, everybody.
+
+Twitter got pummeled by the market last summer when they did their first big troll purge.  IIRC they lost almost 15% of their value the week after.
+
+Turns out that advertisers don’t like finding out they’re advertising shit to cyborgs and astroturf.  We shouldn’t expect reddit to do anything of substance voluntarily.  Stopping covert influence campaigns here is going to require intervention from lawmakers.
+
+Honestly, why haven't some of these advertisers sued Twitter, Facebook, Reddit, etc.? If they really are paying for impressions that are 20+% bots would they not have some kind of legal remedy for beech of contract or something of that nature? Or do they have more information on the true number of bots and they factor in their prices accordingly?
+
+Yep lol, and 'anti-fascist' filters would have removed too many conservatives.
+
+intervention from lawmakers.
+
+Most definitely. I think social media has (extremely quickly) risen to the point of being a regulated utility. But so should ISPs 20 years ago so I'm not holding my breath, I'm gonna use it to discuss things to anyone in earshot and then go vote.
+
+They banned one of my subreddits and said I had been creating multiple subscriber accounts to pad content. I had not created one, in fact I created the subreddit and forgot about it for a month until I got the ban message. When I explained that I had not done anything except create the subreddit and asked for more details I got no response from any official channel.
+
+I have submitted another ticket via the form regarding the most recent (2 month old request).
+
+If it's looked at, I'll write up the other ones again - Thanks Spork.
+
+The only thing stranger than noting entropy is the observation of it.
+
+I would like to offer 3 things I have discovered after reading /u/LargeSnorlax 's and /u/Sporkicide 's posts.
+
+1-He said he got completely stub replies, he did not claim to not receive any reply. Did you misread?
+
+Spork -> " you definitely should have been getting replies from that channel"
+
+2-He clearly stated he is no longer submitting 'anything recent' since currently he has no expectations that it actually does anything. Did you miss this?
+
+Spork -> "I'm not locating anything recent from you."
+
+3-You can submit an e-mail ticket there whenever you chose, please go ahead and do so and investigate the issue with your platform he has raised.
+
+Spork -> " Can you submit a new email ticket there now so we can make sure a wire isn't crossed somewhere?"
+
+​
+
+Perhaps you are just tired from a long day of making decisions; but I would urge you to respond to /u/LargeSnorlax 's comment again with fresh eyes. Please reconsider questioning your own expectations instead of standing by them.
+
+That is strange, you definitely should have been getting replies from that channel and I'm not locating anything recent from you. Can you submit a new email ticket there now so we can make sure a wire isn't crossed somewhere?
+
+shocker....reddit doesn't validate that their system works. they just assume....
+
+[deleted]
+
+Also it sounds like you’re going to concentrate on politics when a bigger problem for reddit is guerilla marketing.
+
+Like the obviously paid postings by mvea. Probably one of the most interesting super shills because there is a decent amount of interesting content with obviously paid for posts mixed it.
+
+I’ve always been curious if mvea is a small team of people or just one person that never leaves reddit. For someone who allegedly has an MD, PhD and MBA, he/she/they have a remarkable amount of time to spam reddit.
+
+Opinions weren't an issue last elections, it was the massive manipulation and bot activity.
+
+Reddit was so inorganic that I lost all hope for this site, and reddit was damaged severely because of it.
+
+Are they against woo and misinformation surrounding GMOs? They shouldn't brigade, but having responses ready for PRATTs is par for the course. When spreading hysteria about GMOs can cost lives like anti-science antivaxxers, I find it hard to be mad at em.
+
+If you gotta, go through my history. Fairly certain I've never once commented or upvoted anything there. Rest assured I'm not one of them. This drama intrigues me.
+
+We had a troll who created over 130 accounts to get to our subreddit and I reported them each time, and yet only got any contact with admins once— they banned a couple of his accounts and then promptly refused to answer anything further, even as he made dozens more alts. Most of the reports we make go completely ignored. Is there going to be a solution to this?
+
+freefolk just showed every mod partaking or facilitating ban dodging and content manipulation. Admins came in and seen everything and just said 'fix this before it gets out.'
+
+It got out. Guess whose still moderating the sub, waiting for it to blow over like they said they would in the mod logs. im_not_steve probably has about 100 accts just to troll but admins are a ok with him running one of the biggest subs.
+
+Unless it makes the news and they lose ad or investment money, no.
+
+Bizarrely, I just received a three-day suspension for “vote manipulation,” when I’ve used one account on my IP address for the past eight years and would consider myself a low-level user. I had upvoted/downvoted four comments in a huge thread (the basics of redditting). I put the suspension down to a faulty auto-process but if that’s the case then the process needs some serious tweaking.
+
+Get used to more of this. The more heavy handed they get, the more 'false' bans that are going to happen.
+
+Ha, I love the comments above about banning 'bots' who only copy and paste other content. Uh, I don't think people realize that there are a lot of introverts, or people who just aren't very verbose and don't want to try to think of something clever to say, that simply copy other posts to say/do the talking of how they feel.
+
+There are tons of legit users who don't write long posts/comments, but still post an interesting article when they find something they like.
+
+That's not being a 'bot', and it seems a scary amount of people on here pretty much just want any account banned that posts things they don't agree with.
+
+[deleted]
+
+Because they don’t actually care, they just care about looking like they care.
+
+Everytime they do one of these they get bent over backwards. Idk what idiots are looking at this and thinking 'admin good. Me trust.'
+
+This is exactly right. Astroturfing is big money on Reddit.
+
+Unfortunately this is just PR not an actual concern for Reddit. The CEO is a lobbyist and Reddit is his way of greasing wheels.
+
+I've heard tales that Shareblue (DNC big money) and the Chinese are paying big bucks to reddit to manipulate votes and have bots comment. Considering the admins ignore obvious cases, I kind of think there might be truth to that. One just has to go onto /r/politics or /r/hongkong to see how unnatural and one sided the content and comments are there.
+
+I don't understand how they can say they're looking into vote manipulation when it's blatant even to a casual user. You just happen to see three stories about an actor on the front page and a quick Google search shows: yep, new movie in theatres soon. No one will ever convince me that a site with so many users like Reddit had enough movie fans, let alone fans of that one actor to vote something like that to the front page. Jesus, seems like every day I have to see a front page story about Disney's upcoming streaming service. It's almost like a company the size if Disney would have the money to make that happen.
+
+Thanks for the update! I really don't envy you the task of hunting down these accounts/bots.
+
+Though there's one thing that I think could be made clearer. You said that the effects of Russian trolls in 2017 was minimal, and yet you say that you're constantly improving detection algorithms. Have you gone back over the 2017 data with the new algorithms to recheck those numbers?
+
+I often see posts that claim that Reddit does not have a bot/troll problem and that it's just paranoia to bring up the idea that people are manipulating content on Reddit. While I understand why you may not want to make a statement like this, I think it would help transparency if someone from Reddit would say, "Yes, we have some issues with Russian bots and trolls." and give some stats on how pervasive they actually are in various subreddits, given the new tools and detection algorithms you have.
+
+You said that the effects of Russian trolls in 2017 was minimal, and yet you say that you're constantly improving detection algorithms.
+
+This in a nutshell is the problem with this post.
+
+The 2017 list was a composite list compiled by redditors, which reddit essentially copied and presented as evidence that the they were “doing something” in the face of intense media scrutiny.
+
+And since then, there has been ZERO transparency on content manipulation and astroturfing from state actors and influence campaigns.  Not to mention that in a recent interview with recode, u/spez rejected the idea that Russian agents were manipulating content here as “absurd”.
+
+I’m eager to read this October report.  I am also not optimistic that we’ll see real transparency.  Reddit is infested with hostile influence operations, and the M.O. so far seems to be “lie and deny”.   The lack of specifics in this post rings similarily hollow.
+
+I think what it is going to take is for redditors to demand congressional and parliamentary investigations.  Put spez in the spotlight in the same way they’ve done with Zuckerburg, Dorsey and others.
+
+As we update our detection model, we are constantly pointing them back at historical data to see what we uncover. So, we don't just apply our techniques to new issues on the site, we see if they would have caught something, and we investigate it the same way.
+
+So can we get an update on what the numbers look like since that 2017 report then? Vid-Master's reply to my post shows perfectly the type of comment I was referring to. If you have new information, constantly referring back to a report from 2017 can be damaging and only furthers the "no bots" narrative that is both untrue and only helps the bots do their job.
+
+I really think a more detailed report of bot activity would only help the site as a whole and stop the spread of misinformation that is so prevalent, especially in political subs.
+
+This is dead on. Great question.
+
+Regarding karma-farming accounts. Can you tell a little about what these are typically used for? Are they used by malicious actors, or more just to post hidden advertisements?
+
+For example, I've noticed a huge influx of accounts in the past 2-3 months that repost previously top-rated posts. Then (typically) in the comment section, there will be another account that posts the top comment from the previous top thread. The majority of the time these are older accounts (6+ months minimum, but often over 2-3 years and sometimes as long as 6+ years) that have a gap between content. They'll post seemingly normal stuff for a while, then there's a gap of a few months or even years, then a massive amount of postings, typically of previous top pictures/videos/articles, and also typically cross-posting the same thing to multiple subreddits. I pointed out one example here, although it seems those accounts are no longer around.
+
+Accounts will karma farm for many reasons. Sometimes its purely harmless (kids learning to write bots that post on Reddit), sometimes it's a stupid growth hacker trying to build credibility for an account before they start trying to drive traffic to a site. The reasons are varied, and not always obvious.
+
+Can't you just ban /r/pics? It must be responsible for at least 50% of all karma farming.
+
+edit: lol, just hours after I half-jokingly wrote this /u/JuanchoJack69 has the #1 post in /r/pics. A legit karma farming account that the /r/pics mods don't care about. PLEASE. Ban /r/pics and demote all the mods of that sub from all other subs they are related to. Do us all this favor. 🙏
+When you're done with this continue with /r/technology, /r/futurology and /r/politics. And /u/GallowBoob, obviously.
+
+I'm just curious, since you're answering these kinds of questions: I've noticed certain accounts that seem to be farming negative karma. Is this a real thing, and if so, to what end?
+
+[deleted]
+
+Mmhmm. The downvote maxing at -100 rule is similar to YouTube’s “downvotes don’t actually do anything negative” rule—it’s one step removed from squashing downvotes entirely. We wouldn’t want potential advertisers/partners being downvoted into the negatives, and we wouldn’t want a negative karma user leaving the site...
+
+Oooh, that seems actually logical! I always assumed they were members of some secret cabal subreddit where they bragged about how they were only pretending to be retarded and got tons of upvotes. I've never seen a downvote troll with less than a couple of thousands karma.
+
+Are you ever going to do anything about false DMCA claims? Or just to lazy just easier to shut a sub down?
+
+This gets brought up repeatedly.
+
+Reddit cannot legally interfere with the DMCA process.
+
+If you know of users who are being targeted for strategic litigation against public participation (including DMCA takedown of comments they make on Reddit)
+
+direct them to seek an attorney's advice.
+
+Reddit can not be the judge nor jury of DMCA takedowns. The law requires them to follow the takedown/counternotice/contact information exchange process, as outlined in the law.
+
+In these instances, users can file a counter notice
+
+Are there any tools you can give moderators to help find issues of vote manipulation? I've been having issues on my small subreddit, but it looks like nothing has been done when I've reported it. So I just have to listed to users complain without doing anything.
+
+We have been thinking a lot about how we provide mods with better tools to detect potential content manipulation on the site. We have to be a little careful not to expose our detection capabilities, but this is something we can mitigate I think. I don't know what exactly this looks like yet, but let me give it some thought.
+
+Is your machine learning a toaster with learning difficulties?
+
+For years now various subreddits have popped up spamming products and product links
+
+A lot are still up and more pop up all the time.
+
+r/ProductGif
+
+r/MustHaveThis
+
+r/DidntKnowIWantedThat
+
+The moderators aren't being subtle at all and still, even when they have been reported over and over, you do nothing.
+
+The moderators aren't being subtle at all and still, even when they have been reported over and over, you do nothing.
+
+Part of the problem is that the user interfaces to do this easily, all send the report to the mods that the user is complaining about.  Trying to report anything to site admins is way more jumping through hoops.
+
+Reddit has stated one of their long-term goals is to enable mods to profit from their position as moderators, which is a full 180 from what they used to say.
+
+True, but when I said reported in this case, I do mean to the admins
+
+Your comment hit a nerve because MustHaveThis is currently shown as “banned”
+
+I understand that  mods are one of the most compromised actors on Reddit. It makes sense in that pen testing 101 has you look for unpaid workers with disproportionate power.
+
+Hell, just look at the recent Freefolk drama where half the mod team were alts from a manipulative mod. All the mods now are releasing sensitive mod mail chats to save face. If they had access to secret Admin information regarding manipulation, you can bet your ass they'd release it out of spite. There's no repercussions because they are unpaid labor.
+
+The question is, if your dealing with advanced state actors, what's to suggest the admin team isn't already compromised. And if it isn't, the entire reddit structure doesn't allow for human intervention. All the "remedies" will have be to be automated, or some some sort of  "supermod" level vetted and hopefully paid by reddit itself(highly unlikely) .
+
+The very nature of an unpaid workforce with the power to shape conversation is a fatal flaw in stopping manipulation.  I hope you have solutions, but this whole post seems like a lot of words to say "trust us."
+
+Edit:spelling
+
+There's a pretty simple way that you could help moderators detect brigading: if a large number of accounts follow links to a post (say, more than 50% of the number who come across it organically) and a high proportion of them vote in the same way, the moderators of that sub should get a notification which tells them what happened and which subs the links are on.
+
+Of course, sometimes the algorithm will get things wrong (say, sometimes a good post gets X-posted and lots of people give the original poster an upvote 'cause they think OP deserves the karma) - that's why I'm only suggesting sending a notification, and putting lots of information in it. Human judgement is required here and that's something that moderators can provide when we have enough info to go on.
+
+Granted, brigading isn't the only form of content manipulation out there - but it is a big one, and being able to definitively point to specific examples of it would be helpful.
+
+Making reporting egregious cases to admins easier would be a very easy and effective start
+
+As a mod of a sub currently dealing with a relatively significant brigading problem that the offending sub mod's have ignored despite multiple attempts of reaching out, please:
+
+Allow us to see when users follow a link thats been cross posted and vote/comment.
+
+That singular tool would allow us to determine the users that regularly engage in brigading without actively participating in our subreddit otherwise, without targeting the users that legitimately participate in both subreddits.
+
+I leaned a new word today: “shitheadery”.
+
+Im working on making it an official word internally :-)
+
+because of a stupid joke i dont separate shit and head any more, its now shi-thead-ery
+
+I've been hearing a lot of great things about Crowd Control; I haven't had an opportunity to see it in action yet, as I read the comments in the subreddits I moderate using the /comments stream.
+
+Would it be possible to provide some visual markup on comments that are affected by Crowd Control (besides collapsing the thread) -- so that they are more readily noticeable by moderators who are overseeing the entire subreddit?
+
+The ability to locate users who are new to the communities I moderate for is a priority our moderation teams -- So that we can greet them, remind them about our rules, and answer any questions that they may have; the Crowd Control mechanic seems like a step in that direction, in a way that can only be accomplished on the moderator side currently using an AutoModerator kludge.
+
+Separately -
+
+Are there plans to streamline the reports and enforcement process for harassment subreddits -- groups that exist for the primary purpose of directing harassment at other subreddits and/or users?
+
+Much of what I do on Reddit right now involves cataloguing such subreddits and flagging their users.
+
+Many of the users that I catalogue and flag are recurrent between successive harassment-and-hate-oriented subreddits.
+
+I've previously mentioned to spez that Karma alone is no longer a sufficient metric of the good faith and trustworthiness of a user account; We need Reddit to recognise that accounts that are heavily involved in subreddits that are organised around the goal of violating the Reddit Content Policies -- or which subreddits are quarantined -- should be treated as inherently untrustworthy.
+
+While it's great for Reddit, Inc. to distance itself from the message and behaviour of these specific subreddits and users, through the Quarantine mechanism --
+
+the rest of us realise no extra value from that action.
+
+We have to run a plethora of bots and scripts and browser extensions and external servers and use the old.reddit.com interface on our desktop machines, to do our communities justice in protecting them from bad faith users.
+
+And none of that information that we've had to collect and parse ourselves, can be leveraged by AutoModerator.
+
+Please -- make a priority out of exposing "frequently contributes to these communities" - style information, to AutoModerator.
+
+Implement some manner of Quarantine Anti-Karma -- so that "Quarantine" means something to moderators.
+
+The invitations we extend to the public to participate in the subreddits we moderate, doesn't extend to the people who we reasonably know will participate in bad faith, just to abuse us.
+
+Please make life hard for the abusers -- not for moderators and not for good-faith users.
+
+We're in agreement, Crowd Control is still a work in progress and that is why it’s not yet fully released. One of the improvements we’re looking at is making it more clear to you as mods which comments are affected by the feature.
+Some of our other teams also have some experiments around giving mods ways to find and greet new users in their communities. Stay tuned to /r/modnews to what we’re working on there!There is a lot to unpack in the second half of the question. But broadly speaking, yes we recognize that karma in its current form, is not a perfect measure of "trustworthiness" (though it still has other benefits). We need a better way to convey information about how trusted a user may be (ideally with enough context to allow communities to make their own decisions).
+
+One of the improvements we’re looking at is making it more clear to you as mods which comments are affected by the feature.
+
+🎡🎇🎆🎊🎉🎈✨🎠🎶
+
+Some of our other teams also have some experiments around giving mods ways to find and greet new users in their communities.
+
+Two features? 🎈✨🎡🎆🎶🎇
+
+There is a lot to unpack in the second half of the question.
+
+Yeah, sorry. That's why it was
+
+behind a section break.
+
+We need a better way to convey information about how trusted a user may be (ideally with enough context to allow communities to make their own decisions).
+
+Cool! Thanks for listening!
+
+100% agree on the need to expand beyond straight karma since there’s some obvious karma farming operations going on to artificially grow accounts.
+
+I’m just glad to see the proactive approach. Hugely appreciative that these steps are being taken well before Election Day.
+
+[deleted]
+
+Use a password manager and set a strict password. I regularly go through and update my passwords.
+
+KeePass is a great open source password manager that keeps your passwords encrypted and where you have control over them.
+
+r/privacytoolsIO and many on r/privacy recommend using BitWarden. It's free and open-source, just like KeePass, but easier to use.
+
+If you do want to use KeePass, the community fork of KeePass called KeePassXC is the better choice.
+
+Hello Canadian here,
+
+As you may know there is an election in Canada happening in just over a month.  I’ve been reading many concerns from other fellow Canadians about political content manipulation in r/Canada by the mod team on that subreddit.  What actions can you or your team do insure our elections are safe from manipulation from the mod team on r/Canada?
+
+Thanks,
+
+Juice16
+
+Brit here, also expecting an election and the UK's biggest sub, is modded by the UK's biggest brigading sub.
+
+The scale of the brigading has been documented (in some posts 30-50% of comments come from the brigading sub), yet nothing happens.
+
+The lack of transparency around moderator actions in large subs is a real problem, giving moderators more tools is pointless if they ignore them. I get that moderators are giving up their own time to solve e-fights, or nothing but e-cred, but more visibility of moderator actions and even review would be nice.
+
+I know Slashdot's 2 tier review wasn't perfect, but something along those lines might help weed out bad mods, at the moment they are like cops, sure most are good, but within communities they will close ranks and have eachother backs almost every time, even when mods do obscene things.
+
+Yo Juice.  The fact that they're going to time this "security report" to fall after your elections should tell you everything you need to know about how seriously reddit is taking your concern.
+
+I'd encourage you and other Canadian redditors to write your member of parliament and demand they investigate.  That or enjoy having Prime Minister Scheer.
+
+Lol check out all the replies you got, instant venom from the concern trolls. This election is going to be insane.
+
+Our efforts are not exclusively focused on the US elections, we focus on the detection of content manipulation across the site.
+
+If that's the case, why are you planning on waiting until after the Canadian elections to release a long overdue report on content manipulation?
+
+Why not give Canadian redditors a chance to see how they've been exposed to covert propaganda here *before* they go to the ballot box?
+
+This is just a PR move, nothing is going to change, it's more of a hey I talked about the problem, but I'm not gonna do anything about it.
+
+Can you speak on the global issue of mod accounts being used to subvert various subs? It seems like a fairly critical point of failure that the community has extremely limited visibility into or ability to combat.
+
+For example there's also suspicion about certain /r/politics mods. I can think of several state level actors who would not think twice about exerting external pressure on mods they were able to identify IRL, and that's assuming some mod accounts aren't just directly controlled by them.
+
+R/conspiracy (I know, you're rolling your eyes) is another one that is pretty obvious.
+
+The amount of white supremacy posts and comments in that sub is over the top bad. Mods are clearly a part of it.
+
+Seriously, and when you think about it, it is a prime target audience for trolls and agents recruiting people who will believe whatever they get fed.
+
+I’m happy to hear that.  Thank you for the quick response.
+
+Any chance you’ll actually answer the question about mod manipulation? It’s not like these systems you are putting in place haven’t been shown to be abused by employees at other companies.
+
+TL;DR: I think bot's are being used to target and downvote the posts and comments of certain people based on how prior comments have irritated the people that control the bots.
+
+I'm fairly certain that sometimes users like myself are targeted for downvotes. Originally it seemed that it was just tards that would go in and downvote most any post I did because I'd pissed them off on some comment or post.  It happened to a whole slew of posts that I had recently made all at one time. That crap still happens but it's to be expected. Then it seems the bots came in.
+
+I could watch a couple of upvotes happen on a post and then a blast of downvotes and then a couple of periodic upvotes if not stagnation. Then it got more sophisticated. Each post was always at 1 or 0. You see, when you get downvotes at least you can say someone noticed. However, if it looks like no one votes at all then a user gets disheartened and leaves the discussion. I've looked at a couple other users history and seen the same behavior.
+
+There have been times I've seen a whole slew of 0 totals on a whole series of responses to a particular post. I couldn't see a rhyme or reason to the voting pattern so I figured it wasn't a tard going all downvote wild on the particular post. However, I saw it happen all over the place and now believe it's more likely that a bot had been configured incorrectly.
+
+I don't paranoid often but this seems real. Could you look into it?
+
+Thats interesting.  A good strategy for trolls would be to zero out the votes on a comment, for the reasons you cite. (especially to disguise themselves and still be effective) Interesting that you caught that, some previous activity on my account might make more sense with that under consideration.
+
+Thank you for the update!
+
+What steps are you taking to deal with the specific issues of repeated sexual harassment female mods (and users) often deal with and that the harassers use things like ban evasion to try and get around?
+
+That's not something you should have to deal with and definitely not something we want to continue happening.
+
+This actually represents the combination to two projects that we have been heavily testing over the last several months. We have been investing in better natural language processing to detect abusive content on the site. We are in the early tests of this, but the results are really promising. Additionally, we are working on better ban evasion detection. Both of these are tricky issues, but we are pretty excited about the early results. I will try to do a post in the next couple of months around the results of these tests.
+
+If you look at reddit's content policy you will see that content which "Encourages or incites violence" is prohibited. If you follow that link it takes you to this page, which details what content meets these criteria. That page also says that "To report Violent Content, please visit this page.". Here are the options for things you can report on that page.
+
+> This is spam
+
+> This is abusive or harassing
+
+> It infringes my copyright
+
+> It infringes my trademark rights
+
+> It's personal and confidential information
+
+> It's sexual or suggestive content involving minors
+
+> It's involuntary pornography
+
+> It's ban evasion
+
+> It's vote manipulation
+
+> It's a transaction for prohibited goods or services
+
+> It impersonates me
+
+> Report this content under NetzDG
+
+> It's threatening self-harm or suicide
+
+​
+
+You will notice that the option "It encourages or incites violence." is not in this section. In fact of all the things explicitly listed as being prohibited the only two that the page doesn't show in that list are, illegal content, and content that encourages or incites violence. For illegal content you could hypothetically report it to the police and they could contact reddit about it through reddit's law enforcement inquiries section. But to report content to the admins that breaks the content policy by encouraging or inciting violence there isn’t an obvious way to do it if you haven’t had it explained to you.
+
+It’s hidden in this submenu.
+
+"It threatens violence or physical harm" only seems to cover content that "calls for violence or physical harm" not content that "encourages, glorifies, incites" violence or physical harm. Threats are direct, a post talking about how "Muslims are ruining America, someone should find a final solution” are not direct threats, but they definitely encourage and could incite violence or physical harm.
+
+We all know what the term stochastic terrorism means, most of us didn’t three years ago. Things have changed. Their needs to be a better way to report this content.
+
+I have been told that the option in the submenu is the proper option to use, but all of this seems needlessly confusing.
+
+Is there any plan to redesign and integrate this system into the main site so that this kind of concerning content is easier to report?
+
+The silence speaks volumes /u/worstnerd
+
+I just had this exact problem yesterday with a user who was posting about how they wanted to kill themselves, but not before taking lots of other people with them. I went in circles for five minutes and through several different recursive hyperlink help desk etc. loops before realizing that it might be under 'abusive or harassing' lol.
+
+These trolls often buy accounts. Particularly the US based campaign-aligned ones rather than foreign adversaries. These accounts have high karma in various subs, and are scrubbed of history and reused. This has never seemed to be curtailed. The account changing passwords and having its history blown out seem to be good indicators something weird is happening, information a system could consume and alert on.
+
+In other threads other common patterns of bad behavior have been identified. They can be systematically identified.
+
+Why is it so easy to do the same wrong stuff? I work in healthcare IT. In aware of how complex enterprise tech can be. I'm aware of how fraud, waste, and abuse is an arms race as each side figures the other out. But you haven't ratcheted forward. Not once has a plan seemed to fail today that succeeded yesterday in a permanent way. It's not like you've been cut and continue to bleed. It's like you've been cut and have continued to pull the knife through your flesh.
+
+I regularly delete my entire comment history (every couple of months) and change passwords regularly (every month or so) but I am not a bot or hacked account.
+
+I do these in order to protect my identity on Reddit as I often partake in various echo-chamber subreddits where I will go against the status quo. This will often make enemies who will look for identifying information in my comment history in order to try and dox and since I also use my account for some of my personal interests, it isn't hard to do so.
+
+Without having this option, I'd have to resort to using multiple accounts which wouldn't be ideal.
+
+I have a concern about content manipulation. The subreddit r/muacirclejerk is being policed by the mods of r/MakeupAddiction. If you want backstory and screenshots I have them, but a mod at MUA went on alt accounts to harass an MUACJ member. This mod admitted it but refused to step down. MUA mods started mass banning any members that also commented on MUACJ (they also admitted this) and now are policing the circlejerk sub. Circlejerk subs parody the main sub and link to the original content. MUACJ can no longer link to original content or posts get removed. An MUA mod is obviously in a head mod’s pocket. 
+Dozens, possibly hundreds of complaints about MUA mods have been submitted and nothing has been done. I’ve personally been harassed by them, nothing happened when I complained and submitted proof. This is blatant brigading and content manipulation, is the makeup community just not important enough for any action to be taken?
+
+Edit: during the mass banning over 30k members were banned or unsubbed. The mods response to this (again, I have screenshots) was literally “Boo fucking hoo.” These are people you are supporting by your inaction.
+
+I've seen hundreds of accounts from 1-12 years olds that are suddenly posting spam for tshirts/mugs/alibaba dropship items or posing as women in various NSFW subreddits trying to get men to pay them money. For the tshirt spammers they usually leave the history intact, for the porn catfishers they usually wipe it. Many of these have posts that are obviously being vote manipulated up.
+
+Do you know what percentage of compromised accounts are being used for political purposes vs. being used to spam/scam for money?
+
+This!!! Moar data plz.
+
+Also is there a way to safely dispose of dead accounts? all previous iterations of my name have clearly distinct usage dates as I forgot password, but are now more likely to be re-used by spammers than for me to find the PW.
+
+Is this update only relating to events such as political elections?
+
+​
+
+If not, I feel that this can be implemented in other areas of reddit, such as subreddits.
+
+​
+
+I've noticed some subreddits are being misused to manipulate content. One example is the subreddit r / btc. The letters "btc" symbolize the units of Bitcoin. However, that subreddit seems to have been taken over by individuals that are only in favour of bitcoin's direct competitor, which is bitcoin cash. Anything you ask or post in the subreddit will only be positive if it is positively reflecting its competitor. I understand this is a freedom of positing thing, but it becomes a bit dangerous to newcomers when they are actually using their hard earned money to buy something, which isn't what they are buying. It can be easily confused due to the content manipulation.
+
+​
+
+How do you avoid this from happening with other subreddits or examples. Such as roundearthers subreddits being taken over by flatearthers subreddit. Or antidepression being taken over by emorocks.
+
+​
+
+Anyways sorry for bringing this random topic up, but I thought it might be worth bringing it to your attention.
+
+Outside of admin-level detection and mitigation, we recognize that a large part of what has kept the content on Reddit authentic is the users and moderators
+
+Great. So why do I have several tickets that have gone months without replies regarding content manipulation?
+
+Why does /r/Games_Rule34 still exist despite reporting it to the admins multiple times (The latest today). This sub "removes" all posts except the one you see, but their little bots go and spam shit across reddit using urls that look semi-legit like "yti mg.site" and "p ornhub.run". These pages then redirect to a REMOVED post on /r/Games_Rule34, making a mockery of any attempt to ban the domain they're using.
+
+Now, occasionally, an admin may act on the single post itself, such as here so the way they link content is prevented from working, but they just switch domains, and send it to a new post. Like this one. Despite the reports indicating the sole mod of that sub is part of the spam ring, the sub itself still has not been touched, the mod still not suspended, and other subs are still getting spammed by this shit.
+
+I got fed up with reporting stuff to /r/reddit.com to never get a reply (Or get a form reply with no real action taken) that today I decided to also try direct messaging /u/ocrasorm to see if he'd do something about it. I'm sure he has more important things to do.
+
+If you're working on improving detection over 2016, I can't say that I'm very confident. Because if you can't stop a spam ring when the way they go about spamming is laid out for you, then I have no confidence that anyone with half a brain could influence reddit posts
+
+edit: I should also note: I'm not the only one that's reported this porn spam ring to you guys. Another user has been reporting these guys for awhile. But like me he gets a lot of silence
+
+Just waiting for another website to occupy the husk of integrity that reddit used to own.  Now if you'll excuse me, I have 100 fucking sponsored advertisements to sift through in order to find the content I actually want.  Thanks for basically nothing.  You are digg 3.0.  You will absolutely fall to the ground, and it shouldn't take too long, because you left your integrity at the door along with your crocs, or your birkenstocks, or whatever douchebag profiteering assholes wear these days
+
+Suck my balls
+
+[deleted]
+
+Lol even the admins hate the redesign
+
+Have you guys looked into Mods pinning their normal comments? Isn't that vote manipulation? I personally believe Reddit needs a main head base, which looks over Reddit as a whole, where you can report mods or things that don't necessarily get taken care of. The mail admins thing seems inefficient and not everyone is satisfied with the support
+
+How does this sound?
+
+[deleted]
+
+True, come the next election, super-PAC cash will be offered to mods of key subreddits to buy their accounts. This happened in 2016 with /r/politics, which is why it rapidly became filled with pro Hillary talking points and pro Bernie content was censored.
+
+Can you do something about all the T-shirt spamming. It’s using stolen content and a scam and there is an excessive amount of it.
+
+What kind of training, if any, are you providing the mom and pop mods running subreddits around the site, generally, and mods on the big target subreddits in particular, like /r/politics?
+
+Why is black people twitter allowed to ban people from commenting for being white. It’s not like it’s just black people they specifically ban white people. I don’t get how that is okay.
+
+r/destinythegame has tons of content manipulation going on. From new posts immediately being downvoted so they never surface to entire topics of feedback for the game being instantly deleted by the mods so the devs that read the sub never get to see it. Not low quality topics either. I've watched posts with excellent content, info, and tons of time put into them get deleted simply because the mod team said so. They take controversial topics and put them in a single megathread that gets lost after the week it's up and then delete any posts about the topic and redirect the writer to the long forgotten megathread for that topic.
+
+The sub is an echochamber and nothing more working to shape its game into what the "fan boys" of the sub see fit. This is the label given to the people who often downvote suggestion posts and then leave troll comments on posts. They defend the most mind boggling decisions the game devs make with low effort shit posts that immediately get gilded minutes after posting with hardly any upvotes.
+
+While scanning "new" for the downvote and gilding patterns, I've noticed that the posts that get gilded immediately usually never get downvoted from the start. For the first minute or so, it sits there with 1 upvote while the posts before and after it hit 0 and -1 seconds after posting. Then, the post with 1 vote gets upvoted and gilded at practically the same time with usually around 3 gold at first.
+
+I don't know about you, but seeing a low quality, one sentance post that basically reads "It's the way games are now. No use complaining." Getting gilded multiple times within a few minutes, while informative, interesting, well written lengthy posts get immediately downvoted, makes me very suspicious of manipulation. This sub is the first sub I can think of as a shining example of it.
+
+To conclude, r/destinythegame needs investigating for this issue. Thanks for coming to my TED talk.
+
+What I wouldn’t mind seeing is stricter rules on manipulation of titles on articles that create misleading narratives
+
+I spent a long time compiling this thread outlining a network of 50 accounts astroturfing reddit for months, then I reported it to the admins a week ago, and still most accounts aren't shadowbanned, nor did I get any kind of reply or confirmation:  https://www.reddit.com/r/CryptoCurrency/comments/d1qneb/crypto_reddit_manipulation_report_dream_network/
+
+Why should mods continue to spend time to report anything to the admins when there is no reason to believe it accomplishes anything?  There's 0 response to reports.  The only thing we hear back from the admins for years now is threads like these saying it's getting better but it never does.
+
+We understand keeping your methods private from the manipulators, we have to do the same thing to remain effective.  But you have cut all communication.  You want us to moderate your site but you treat us like the enemy.  It does not leak any information about your tools to say "Thanks, confirmed".  How much less effective are your defenses when you cut off all the moderators?
+
+What specifically are you going to do about all the fraud attempts targeted at reddit crypto users through your platform?
+
+Don't act like you don't know half the front page is bought and paid for.
+
+Also u/gallowboob is a cancer on this site
+
+Redit is a poorly designed platform, burying unpopular opinions and essentially destroying any opportunity for valid discussion.
+
+It's an echo chamber, a circle jerk by design. You cant fix it, stop trying.
+
+Burn it to the ground
+
+So where does that put people like gallowboob, who mods 200+ subs, is well known for having corporate ties, and freely bans people who speaks negatively of him?
+
+Edited: for grammar
+
+[deleted]
+
+It is. Reddit mod etiquette specifically forbids banning based on behavior in unrelated subreddits.  But people like gallow are closely connected to admins so rules don't apply.
+
+This will not get a response from the admins, I can guarantee it.
+
+[deleted]
+
+Reddit promoting itself by using fake accounts to ask simple questions and upvote them massively to make it seem like a popular question. Nothing new here, move along to other forums for actual discussion and communities.
+
+Because gallowboob is in with the Russians like Reddit and making shit tons of money. There is zero chance the admins every do anything to him.
+
+My understanding is that many of these 'power' users/karma farmers will post something, then delete it if it gets no immediate traction. They will then repost it again and again until it does. If they happen to mod the sub, they will delete or otherwise suppress competing posts.
+
+The simple answer to this is to limit the amount of submissions someone can make per day, site wide. A really strict limit like 5 or 10 posts per day should prevent a lot of karma farming.
+
+Gallowboob is a propagandist and should be banned from the site. Reddit is a nicer place without all of his reposts on the front page every day after I blocked him, and the other top karma farmers
+
+This comment should be more upvoted and fucking replied to. It's a shame that it will be ignored because the admins are full of shit.
+
+I got banned from a subreddit by the single mod for posting an Amazon link. That's all I did and didn't know he was adverse to Amazon links. r/drums, u/_norm. It instantly excludes me from participating in a sub that I have considerable experience in, as I've been a professional musician now for over 35 years. Like, I derive my income from the art.
+
+I could be giving solid advice there but it's more important for his fragile ego to survive in an environment that he alone controls.
+
+Awkwardtheturtle mods over two thousand subs.
+
+Over two thousand subs.
+
+There is no way you can meaningfully contribute to moderation if that many subreddits, hell, you can't even reasonably remember the rules to that many.
+
+we highlighted the relatively small impact that Russian trolls had on the site. 71% of the trolls had 0 karma or less!
+
+No, 71% of the Russian trolls that you found had 0 karma or less. That doesn't mean that they are bad at it, it only means that you are only getting the obvious ones
+
+Damn, you’re actually kinda smart though
+
+Especially since most of the ones they caught were caught by user reports, and the ones with the most user reports are also the most likely to have negative karma
+
+Why are usernames removed from r/all and r/popular on new reddit? Is this to shield native advertisers and power users?
+
+Because they don't want new users seeing names like /u/DickCheeseMayo and /u/MyMomSwallows.
+
+[deleted]
+
+Not THAT vote manipulation they are talking about the unpaid manipulation.   The problem isn't the manipulation itself it's that they can't monetize it.
+
+"Inauthentic community engagement" - Am I wrong to read this as trolling? Several times this year I have had run-ins with Reddit members who's sole function on Reddit is trolling. They post no beneficial material at all. Several have multiple accounts which are easily linkable and incredible annoying when they become obsessed with getting you back for some imagined slight.
+
+The mods of individual subs are very hit and miss.     Some are very good at what they do while others are perry and more concerned with driving their own opinion that they can't see past what is written.
+
+I want to know why you banned LEGO yoda, subreddit (obviously) based on satire, while significantly worse subreddits still remain. It was funny and it didn’t hurt anyone- in fact it’s purpose was to be as over the top and ridiculous as possible. I feel like if the reddit mods were in control of modern media, we wouldn’t even have anything like South Park- obviously satire, but still apparently bannable criteria all the same. I think the mods should take a moment to browse a sub before banning and then using their time more effectively on things that matter.
+
+Wanna stop vote manipulation?
+No seriously, do you actually want to stop it?
+
+Get rid of downvotes.
+
+There is not a single argument for keeping it.
+
+"b-b-but they could be posting something that's not factual".
+
+Yeah right, listen to yourself for two minutes. Nobody will downvote something that's not factual. They will downvote something that goes against their agenda. I've seen countless of toxic trolls and shills do it and they are increasing in numbers. You seriously need to get rid of downvoting because it hurts communities and discussions.
+
+Can you give any insight on your flagging/identification process? Don't a lot of these take a much more indidious form than normal bots - and actually succeed in fitting in?
+
+What are you guys planning on doing to combat the obvious foreign interference in your /r/politics and similar subreddits? The "bad actors" as you call them are obvious and it doesn't do the site any favors when it is so blatant.
+
+Any plans to combat sites selling reddit accounts or are they out of your reach?
+
+[deleted]
+
+Personally I feel both sides of the political spectrum should be more willing to admit what they may have been wrong about or are still wrong about for there to be progress, but of course that's a naive idea, because if that were true we'd all be "centrists."
+
+A report by the very agents manipulating content does not appease me.
+
+I sure hope you are able to improve your methods. I'm tired of being a victim to your "protection" system. I'm a real human and all my votes should count.
+
+Is this also why you locked accounts? Because I received an email that two of my accounts were locked out due to suspicious usage or something. It was brought up in a thread and people were saying it's normal but I never got it on this account. So once again your system failed.
+
+Reddit has been bought out by China. It’s already been seen on the front page via Hong Kong protests, content being scrubbed from all that is negative  towards China. This post is nothing more than a “nothing to see here folks, were totally not compromised.”
+
+If people are legitimately concerned about foreign interference in our election system through the vehicle of social media, look no further than Reddit and the Chinese.
+
+Will this mean more transparency when it comes to ads being artificially boosted to the front page? Whether its in your control or not?
+
+If throwaways are also a problem, why not develop a way to make a limited-time account? It would self-destruct after a window of time set by the user, say a day, a week, or a month.
+
+All comments and so on would remain available, and of course could not be deleted by the user when the account dies. So you couldn't hide anything. You shouldn't need to hide anything if you are already anonymous.
+
+Thoughts?
+
+The only reason Reddit is doing this is so it can influence the 2020 US Elections for The Left.
+
+Reddit leans far to the Left and continues to ban users and subreddits belonging to conservatives that break no rules. Even subs that go out of their way to follow stricter rulesets by reddit's admins are banned anyway.
+
+Reddit is dead. It's over. A new site is needed.
+
+Appreciate this, but what the hell have the admins been smoking when banning subreddits?  A recent subreddit, r/legoyoda was recently immediately banned. r/T_D and r/chapotraphouse were given quarantines and not banned. Not only that, but many other subs involving racism, pedophilia and brigading remain completely untouched. Very frustrating.
+
+This is ridiculous, the last 12 months I’ve seen content manipulation and vote manipulation at an ALL TIME HIGH.
+
+You certainly haven’t solved any of these issues as far as I’m concerned and admins have completely ignored every communication attempt I’ve made to express my concerns on the issue and offer a solution.
+
+👎
+
+Can you please get rid of the easy cross posting function?  I know it had the best of intentions, but all it does is allow trolls and reposters the ability to easily control the content we see by throwing it up on 40 different subs.
+
+Aside from the Reddit admin being in it, how do you explain obvious takeovers and shifts in subs like /r/politics and others.
+
+It's all just a crazy coincidence but certain companies (now renamed and split into many others) came out and admitted they were spending millions on social media to post positive things about certain people and fight wrongthink.
+
+Literally admitted they were spending millions on Reddit and social media to astroturf.
+
+https://web.archive.org/web/20160421163946/http://correctrecord.org/barrier-breakers-2016-a-project-of-correct-the-record/
+
+Old technology thread : https://www.reddit.com/r/technology/comments/4fvcng
+
+Even a highly upvoted thread on it in the politics sub at the time : https://www.reddit.com/r/politics/comments/4fv43z
+
+Crazy reading that thread and seeing the difference today right?
+
+It's just another crazy coincidence that the whole mod team there got wiped clean and repopulated when these companies began their crusade, and the sub became basically democrats HQ. You can check and see when all the mods were added in any sub. That sub? 2016.. when this shit rolled out..
+
+Whole thing was so blatant.
+
+Same thing is happening in other subs, or has happened I would say.
+
+/r/worldnews is clearly manipulated. It's pure propaganda, comments are removed depending on narrative, the mods there break their own rules constantly.
+
+Anyone that doesn't see it is in denial, even regular users know what's been going on, because it's all done so blatantly, not at all subtle.
+
+How come you guys are so blind to it?
+
+😂😂😂😂 this is gold. To “quarantined” the biggest political sub while artificially inflating the posts from opposite political subs and you want us to believe you’re doing something about “content manipulation”? 😂😂😂😂 Rich. Very rich.
+
+So will you ever acknowledge the vote suppression of The_Donald during 2016? Because from what I understand, that was the first time ever that a subreddit was unable to EVER make the front page despite getting well over 8k+ votes. There is an obvious bias on this website so will this be addressed or not?
+
+That is because they were manipulating the upvotes.
+
+[deleted]
+
+Back in 2016, Clinton's PAC was reported to had spent over a million to "correct" (read: attack and downvote) negative commenters on Reddit and Facebook.
+
+Stopping foreign influence is a great cause, but shouldn't Reddit leadership be equally concerned with domestic political vote manipulation ?
+
+When will un quarantine The Donald? It’s pretty clear now that this was Content Manipulation by the Admins of this website.
+
+Will Reddit just leave them quarantined in order to help Reddit get through the election and appear to have a greater approval for Democrats than the reality and truth?
+
+What exactly does "collaborate with ... law enforcement" mean? If a gay teen in Saudi Arabia posts to Reddit about being gay over an HTTPS connection, should he expect his IP address and comments to be provided to the Saudi government so that he might be executed at the earliest opportunity?
+
+Ok r/totalanarchy is up who supported and celebrated the terroist who firebombed an ice facility and made national news but you made the Donald restricted after your internal investigation found no violations because if pressure from the media? Fuck me.
+
+Is your machine learning a toaster with learning difficulties?
+
+For years now various subreddits have popped up spamming products and product links
+
+A lot are still up and more pop up all the time.
+
+r/ProductGif
+
+r/MustHaveThis
+
+r/DidntKnowIWantedThat
+
+The moderators aren't being subtle at all and still, even when they have been reported over and over, you do nothing.
+
+Most shilling I've seen already comes from the same "people" that hang out at r/politics posting the articles from the same websites (usually CommonDreams, ThinkProgress, etc.).
+
+[deleted]
+
+They mentioned that it was being rolled out to new users and selected beta testers in August, and then rolled out to the remainder of the users over the successive three months.
+
+So we're about a month and a half away (end of October?) from all being able to see our followers list.
+
+Can we state the fact the mods n admins regularly push political views that they like and hamper political views they dont like ?
+
+Can we talk about that kind of content manipulation ... or ... no ?
+
+Redpill in the wild !!
+
+Are you going to quarantine the leading Dem candidate's sub reddit so that you are fairly and equally suppressing both sides? Or do you just pick favorites and then make up reasons to justify your political bias?
+
+You know what would really help with manipulation? Banning TD. The Russian trolls congregate there. Get rid of TD, get rid of most of the Russians. They’re also showing up in history-related subreddits.
+
+Will the report be focused only on state actors, or will there also be data on manipulation done by other entities who would have an interest in such a thing, such as PR firms and marketing agencies?
+
+[deleted]
+
+Hi Admins,
+
+Can you monitor Canadian themed subreddits more closely for content manipulation over this next month and a half?
+
+As our Federal election will be happening.
 
