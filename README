@@ -38,3 +38,35 @@ To use this project, follow these steps:
 ## Dependencies
 pip install beautifulsoup4
 
+
+# CS325_project3
+
+# CS325_project3 is a project consisting of modules for downloading web content, writing to files, and extracting comments from HTML files. It includes several Python scripts organized into modules to facilitate these tasks.
+
+## Prerequisites
+Before you can run the Web Downloader and Comments Extractor program, you need to ensure you have the following prerequisites installed on your system:
+
+- Python 3
+- Git (optional, but useful for cloning the repository)
+
+## Getting Started
+
+1. **Clone the repository.**
+
+   If you have Git installed, you can clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/yyman919/CS325_project3.git
+
+2. **Navigate to the Project Directory**
+
+3. **Create a Virtual Environment**
+
+4. **Using Conda**
+   
+## Running the Program 
+1. Step 1: Use the command line: py run.py (url)
+then outputs in Data directory
+
+
+
