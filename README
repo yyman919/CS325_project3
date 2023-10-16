@@ -21,7 +21,7 @@ Before you can run the program, you need to ensure you have the following prereq
 
 3. **Create a Virtual Environment (Optional but Recommended)**
 ## Using Conda
-  conda create --name project3_env python=3.8
+  conda create --name project3_env python=3.11.4
   conda activate project3_env
 
 ##  Using Python venv
@@ -29,8 +29,9 @@ Before you can run the program, you need to ensure you have the following prereq
   source project3_env/bin/activate  # On Windows, use `project3_env\Scripts\activate`
 
 4. **Install Dependencie**
-   pip install -r requirements.txt
+   pip install beautifulsoup4
+
    
 # Running the Program
-   python run.py URL
+   python run.py URL, then it will call web_downloader, web_filewriter, and comment_extractor, eventually generate the outputs into Data.
 
